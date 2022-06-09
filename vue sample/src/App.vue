@@ -1,3 +1,4 @@
+
 <template>
     <div id="app">
 	<div style="border: 1px solid" @mousemove="onMouseMove">
@@ -57,7 +58,6 @@ export default Vue.extend({
             title: 'Revenue',
             labelFormat: '{value}M',
             majorTickLines: { width: 0 },
-            //minimum: 10, maximum: 80,
             lineStyle: { width: 0 },
         },
         chartArea: {
