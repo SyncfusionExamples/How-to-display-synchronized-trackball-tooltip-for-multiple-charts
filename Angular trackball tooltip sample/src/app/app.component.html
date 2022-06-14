@@ -1,0 +1,24 @@
+<div class="control-section">
+  <div style="border: 1px solid" (mousemove)="onMouseMove($event)">
+      <ejs-chart style='display:block;width: 92%' [chartArea]='chartArea' align='center' id='chartcontainer1' [primaryXAxis]='primaryXAxis'
+          [primaryYAxis]='primaryYAxis' [title]='title' [tooltip]='tooltip' [crosshair]='crosshair' >
+          <e-series-collection>
+              <e-series [dataSource]='john' type='Line' xName='x' yName='y' name='John' width=2 [marker]='marker'> </e-series>
+              <e-series [dataSource]='andrew' type='Line' xName='x' yName='y' name='Andrew' width=2 [marker]='marker'>
+              </e-series>
+              <e-series [dataSource]='thomas' type='Line' xName='x' yName='y' name='Thomas' width=2 [marker]='marker'>
+              </e-series>
+          </e-series-collection>
+      </ejs-chart>
+      <ejs-chart style='display:block;width: 92%' [chartArea]='chartArea' align='center' id='chartcontainer2' [primaryXAxis]='primaryXAxis'
+          [primaryYAxis]='primaryYAxis' [title]='title' [tooltip]='tooltip' [crosshair]='crosshair'>
+          <e-series-collection>
+              <e-series [dataSource]='john' type='Line' xName='x' yName='y' name='John' width=2 [marker]='marker'> </e-series>
+              <e-series [dataSource]='andrew' type='Line' xName='x' yName='y' name='Andrew' width=2 [marker]='marker'>
+              </e-series>
+              <e-series [dataSource]='thomas' type='Line' xName='x' yName='y' name='Thomas' width=2 [marker]='marker'>
+              </e-series>
+          </e-series-collection>
+      </ejs-chart>
+  </div>
+</div>
