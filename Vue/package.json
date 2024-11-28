@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@syncfusion/ej2-vue-charts": "^20.1.56",
-    "vue": "3.5.12"
+    "vue": "3.5.12",
+    "vue-template-compiler": "3.0.0"
   },
   "browserslist": [
     "> 1%",
