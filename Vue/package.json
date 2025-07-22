@@ -12,7 +12,8 @@
   "dependencies": {
     "@syncfusion/ej2-vue-charts": "^20.1.56",
     "vue": "3.5.12",
-    "vue-template-compiler": "3.0.0"
+    "vue-template-compiler": "3.0.0",
+    "webpack-dev-server": "^5.2.1"
   },
   "browserslist": [
     "> 1%",
@@ -30,6 +31,6 @@
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^3.0.0",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^3.1.11"
+    "webpack-dev-server": "^5.2.1"
   }
 }
